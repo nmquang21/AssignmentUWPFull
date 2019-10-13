@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>bded29ce-7d9f-4eb9-8665-837518342577</PackageIdentityName>
     <PackageIdentityPublisher>CN=nmqua</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\nmqua\Desktop\New folder\Music\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\nmqua\Desktop\Assignment UWP Full\Music\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Music.exe">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Music.exe">
       <PackagePath>entrypoint\Music.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nmqua\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
@@ -121,264 +121,264 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\8udw.jpg">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\8udw.jpg">
       <PackagePath>Assets\8udw.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\abcd.jpg">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\abcd.jpg">
       <PackagePath>Assets\abcd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\background-3.jpg">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\background-3.jpg">
       <PackagePath>Assets\background-3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\background-8.jpg">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\background-8.jpg">
       <PackagePath>Assets\background-8.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\background-water-drops.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\background-water-drops.png">
       <PackagePath>Assets\background-water-drops.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Music.xr.xml">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Music.xr.xml">
       <PackagePath>Music.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\FreeSong.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\FreeSong.xbf">
       <PackagePath>Pages\FreeSong.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\Home.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\ListSong.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\ListSong.xbf">
       <PackagePath>Pages\ListSong.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\MyInformation.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\MyInformation.xbf">
       <PackagePath>Pages\MyInformation.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\MySong.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\MySong.xbf">
       <PackagePath>Pages\MySong.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\Naview.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\Naview.xbf">
       <PackagePath>Pages\Naview.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\RegisterContentDialog.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\RegisterContentDialog.xbf">
       <PackagePath>Pages\RegisterContentDialog.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\SignInContentDialog.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\SignInContentDialog.xbf">
       <PackagePath>Pages\SignInContentDialog.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\Upload.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\Upload.xbf">
       <PackagePath>Pages\Upload.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Pages\UploadSongContentDialog.xbf">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Pages\UploadSongContentDialog.xbf">
       <PackagePath>Pages\UploadSongContentDialog.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
@@ -393,10 +393,10 @@
     <AppxPackagedFile Include="C:\Users\nmqua\.nuget\packages\winrtxamltoolkit\2.3.0\lib\uap10.0\WinRTXamlToolkit\Properties\WinRTXamlToolkit.rd.xml">
       <PackagePath>WinRTXamlToolkit\Properties\WinRTXamlToolkit.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\New folder\Music\bin\x64\Debug\Core\Music.exe">
+    <AppxPackagedFile Include="C:\Users\nmqua\Desktop\Assignment UWP Full\Music\bin\x64\Debug\Core\Music.exe">
       <PackagePath>Music.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

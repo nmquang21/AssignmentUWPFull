@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Mime;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.Core;
@@ -50,7 +51,7 @@ namespace Music.Pages
         public static NavigationViewItem myInfoItem;
         public bool _IsLooping = false;
         public bool _IsMuted = false;
-
+        private DispatcherTimer timer;
         public Naview()
         {
             this.InitializeComponent();
@@ -83,10 +84,14 @@ namespace Music.Pages
             Window.Current.SetTitleBar(this.AppTitleBar);
             coreTitleBar.LayoutMetricsChanged += (s, a) => UpdateTitleBarLayout(s);
 
-           
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(200);
+            timer.Tick += new EventHandler<object>(timer_Tick);
             
         }
+
        
+
 
         private void UpdateTitleBarLayout(CoreApplicationViewTitleBar coreTitleBar)
         {
@@ -449,11 +454,20 @@ namespace Music.Pages
 
         private void MediaPlayer_OnMediaOpened(object sender, RoutedEventArgs e)
         {
-            TimeSpan ts = mediaPlayer.NaturalDuration.TimeSpan;
-            timelineSlider.Maximum = ts.TotalSeconds;
-            timelineSlider.SmallChange = 1;
-            timelineSlider.LargeChange = Math.Min(10, ts.Seconds / 10);
-            Debug.WriteLine("MediaPlayer_OnMediaOpened");
+            
+            if (mediaPlayer.NaturalDuration.HasTimeSpan)
+            {
+                TimeSpan ts = mediaPlayer.NaturalDuration.TimeSpan;
+                timelineSlider.Maximum = ts.TotalSeconds;
+                timelineSlider.SmallChange = 1;
+                timelineSlider.LargeChange = Math.Min(10, ts.Seconds / 10);
+                Debug.WriteLine("MediaPlayer_OnMediaOpened");
+                var minute = ts.TotalMinutes;
+                var second = ts.TotalSeconds;
+                int x  = (int)Math.Floor(minute);
+                this.totaltime.Text = Math.Floor(ts.TotalMinutes).ToString() + ":" + Math.Round(second - 60 * Math.Floor(ts.TotalMinutes),0).ToString();
+            }
+           timer.Start();
         }
 
         private void MediaPlayer_OnCurrentStateChanged(object sender, RoutedEventArgs e)
@@ -484,16 +498,6 @@ namespace Music.Pages
             mediaPlayer.Volume = (double) (this.volume.Value/100);
         }
 
-        private double x = 0;
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-        {
-            Debug.WriteLine(x);
-            Debug.WriteLine(MyMediaPlayer.Position.Seconds);
-            timelineSlider.Value = x;
-            x++;
-
-        }
-
         private void Mute_OnClick(object sender, RoutedEventArgs e)
         {
             MyMediaPlayer.IsMuted = !_IsMuted;
@@ -508,6 +512,35 @@ namespace Music.Pages
                 this.MuteButton.Icon = new SymbolIcon(Symbol.Volume);
                 this.volume.Value = 100;
             }
+        }
+
+
+        private bool isDragging = false;
+
+        void timer_Tick(object sender, EventArgs e)
+        {
+            
+        }
+        private void timer_Tick(object sender, object e)
+        {
+            if (!isDragging)
+            {
+                timelineSlider.Value = mediaPlayer.Position.TotalSeconds;
+                this.timecount.Text = mediaPlayer.Position.Minutes.ToString()+":"+ mediaPlayer.Position.Seconds.ToString();
+            }
+        }
+
+        private void TimelineSlider_OnDragEnter(object sender, DragEventArgs e)
+        {
+            isDragging = true;
+            Debug.WriteLine("TimelineSlider_OnDragEnter");
+        }
+
+        private void TimelineSlider_OnDragLeave(object sender, DragEventArgs e)
+        {
+            isDragging = false;
+            mediaPlayer.Position = TimeSpan.FromSeconds(timelineSlider.Value);
+            Debug.WriteLine("TimelineSlider_OnDragLeave");
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nmqua\\Desktop\\New folder\\Music\\Music.csproj": {}
+    "C:\\Users\\nmqua\\Desktop\\Assignment UWP Full\\Music\\Music.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nmqua\\Desktop\\New folder\\Music\\Music.csproj": {
+    "C:\\Users\\nmqua\\Desktop\\Assignment UWP Full\\Music\\Music.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nmqua\\Desktop\\New folder\\Music\\Music.csproj",
+        "projectUniqueName": "C:\\Users\\nmqua\\Desktop\\Assignment UWP Full\\Music\\Music.csproj",
         "projectName": "Music",
-        "projectPath": "C:\\Users\\nmqua\\Desktop\\New folder\\Music\\Music.csproj",
+        "projectPath": "C:\\Users\\nmqua\\Desktop\\Assignment UWP Full\\Music\\Music.csproj",
         "packagesPath": "C:\\Users\\nmqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nmqua\\Desktop\\New folder\\Music\\obj\\",
+        "outputPath": "C:\\Users\\nmqua\\Desktop\\Assignment UWP Full\\Music\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

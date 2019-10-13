@@ -155,6 +155,8 @@
       <RootProperty Name="Value" />
       <RootProperty Name="Margin" />
       <RootEvent Name="ValueChanged" />
+      <RootEvent Name="DragEnter" />
+      <RootEvent Name="DragLeave" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Margin" />
