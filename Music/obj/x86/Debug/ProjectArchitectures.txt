@@ -1,1 +1,1 @@
-E:\APTECH\Sem3\Music\Music\Music.csproj;x86
+C:\Users\nmqua\Desktop\duc\Music\Music.csproj;x86
